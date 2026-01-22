@@ -1,5 +1,6 @@
 // CHANGE this to your Render backend URL after deploy
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://twu-partnerships-backend.onrender.com/api";
+
 
 async function apiGet(path) {
   const res = await fetch(`${API_BASE}${path}`);
